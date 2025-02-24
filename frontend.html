@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Monitoring</title>
+    <link rel="stylesheet" href="frontend.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section (Off-white) -->
+    <header>
+        <h1>Network Status</h1>
+        <p id="status">No attack detected</p>
+        <p id="details">Details will be displayed here</p>
+    </header>
+
+    <!-- History Section (Grey) -->
+    <div id="history">
+        <h2>History</h2>
+        <p><strong>Total Packets:</strong> <span id="total-packets">0</span></p>
+        <p><strong>Normal Packets:</strong> <span id="normal-packets">0</span></p>
+        <p><strong>DOS Packets:</strong> <span id="dos-packets">0</span></p>
+        <p><strong>DDOS Packets:</strong> <span id="ddos-packets">0</span></p>
+    </div>
+</body>
+</html>
